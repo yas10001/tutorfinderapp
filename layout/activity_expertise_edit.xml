@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/expertiseSpinner"
+        android:layout_width="293dp"
+        android:layout_height="35dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/lavender"
+        android:entries="@array/list"
+        android:isScrollContainer="false"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/saveExpertiseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Expertise" />
+
+</LinearLayout>
